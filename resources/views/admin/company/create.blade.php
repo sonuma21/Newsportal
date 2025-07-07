@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-6 pt-3">
                             <label for="logo">Enter the Company Logo <span class="text-danger">*</span></label>
-                            <input type="file" name="logo" id="logo" class="form-control" value="{{old('logo')}}">
+                            <input type="file" name="logo" id="logo" class="form-control overflow-hidden" value="{{old('logo')}}">
                             @error('logo')
                             <div class="text-danger">
                                 {{$message}}

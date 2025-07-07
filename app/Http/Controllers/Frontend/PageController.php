@@ -31,10 +31,13 @@ public function home(){
     $trending_articles=Article::where('status','approved')->orderBy('views','desc')->limit(8)->get();
     return view('frontend.home',compact('latest_article','trending_articles','latest_articles'));
 }
+
 public function category($slug){
     $category= Category::where('slug',$slug)->first();
     $articles= $category->articles()->paginate(8);
-    return view('frontend.category',compact('articles'));
+    $trending_articles=Article::where('status','approved')->orderBy('views','desc')->limit(8)->get();
+
+    return view('frontend.category',compact('articles','trending_articles'));
 }
 public function article($id){
     $article = Article::find($id);
@@ -46,4 +49,9 @@ public function article($id){
     }
     return view('frontend.article',compact('article','advertises'));
 }
+ public function compare(Request $request){
+        $q = $request->q;
+        $results =Article::where('title','like',"%$q%")->get()->where('status','approved');
+        return view('frontend.compare',compact('results','q'));
+    }
 }

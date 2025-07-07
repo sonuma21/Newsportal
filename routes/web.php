@@ -7,13 +7,18 @@ use App\Http\Controllers\Admin\CompanyController;
 use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Article;
 
 Route::get('/',[PageController::class,'home'])->name('home');
 Route::get('/category/{slug}',[PageController::class,'category'])->name('category');
+Route::get('/compare',[PageController::class,'compare'])->name('compare');
 Route::get('/article/{id}',[PageController::class,'article'])->name('article');
 
+
+
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    $articles = Article::all();
+    return view('dashboard', compact('articles'));
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
