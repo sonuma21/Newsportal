@@ -14,7 +14,7 @@
     <section class="min-h-[500px] flex items-center bg-gray-50">
         <div class="container mx-auto grid md:grid-cols-12 gap-6 md:gap-10 py-6 px-4 md:px-0">
             <div class="md:col-span-8 flex flex-col">
-                <img class="w-full h-[400px] object-cover rounded-xl shadow-lg mt-5 animate-fade-in "
+                <img class="w-full h-[200px] sm:h-[400px] object-cover rounded-xl shadow-lg mt-5 animate-fade-in "
                     src="{{ asset($latest_article->image) }}" alt="{{ $latest_article->name }}">
                 <h1 class="text-2xl md:text-3xl font-bold text-gray-800 mt-4 leading-tight line-clamp-3">
                     {{ $latest_article->title }}
