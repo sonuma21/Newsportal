@@ -31,7 +31,7 @@ This project showcases advanced proficiency in full-stack development, leveragin
 - **Backend**: [Laravel 11.31](https://laravel.com/), PHP 8.2
 - **Database**: MySQL (configurable via `.env`)
 - **Tools**: [Laravel Vite](https://laravel.com/docs/vite), [Laravel Breeze](https://laravel.com/docs/starter-kits), [NepaliDate](https://github.com/pratiksh/nepalidate), [Heroicons](https://heroicons.com/)
-- **Version Control**: Git with GitHub for collaborative development and CI/CD integration
+- **Version Control**: Git with GitHub for collaborative development 
 
 ## 🎯 Project Goals
 - Build a scalable news platform tailored to the Nepali community, prioritizing cultural relevance and accessibility.
@@ -67,7 +67,7 @@ To set up **सेरोफेरो Newsportal** locally, follow these steps:
     - use the search bar to find specific topics,
     - navigate through categories.
 
-## 📸 Preview/ Screenshots
+
 - **🏠 Homepage :**
 Browse the latest news articles in a clean, organized layout.
 
@@ -76,18 +76,18 @@ Browse the latest news articles in a clean, organized layout.
 - **🖥️ Admin Dashboard :**
 Manage news articles, categories, and more with an intuitive interface.
 
-![Dashboard view](images/dashboard.png)
+![Dashboard view](public/images/dashboard.png)
 
-![Index view](images/index.png)
+![Index view](public/images/index.png)
 
-![Create view](images/homepage.png)
+![Create view](public/images/create.png)
 
 - **📝 Article Page :**
 Read full articles with a responsive and engaging design.
 
-![Article view](images/article.png)
+![Article view](public/images/article.png)
 
-![Category view](images/category.png)
+![Category view](public/images/category.png)
 
 
 ## 🤝 Contributing
