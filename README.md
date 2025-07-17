@@ -71,7 +71,7 @@ To set up **सेरोफेरो Newsportal** locally, follow these steps:
 - **🏠 Homepage :**
 Browse the latest news articles in a clean, organized layout.
 
-![Homepage view](images/homepage.png)
+![Homepage view](public/images/homepage.png)
 
 - **🖥️ Admin Dashboard :**
 Manage news articles, categories, and more with an intuitive interface.
