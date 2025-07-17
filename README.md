@@ -5,7 +5,7 @@
 ## Overview
 **सेरोफेरो Newsportal** is a modern, feature-rich web application designed to deliver the latest news, breaking updates, and categorized articles, with a special focus on the Nepali community. Built with a robust tech stack, it offers a seamless, responsive user experience across devices, making it accessible to a diverse audience. The platform features a powerful admin panel for content management and a dynamic frontend optimized for engagement, incorporating culturally relevant elements like Nepali date formatting.
 
-This project showcases advanced proficiency in full-stack development, leveraging **Laravel**, **Tailwind CSS**, and **Filament PHP** to create a scalable, maintainable, and user-centric news platform. It reflects a commitment to clean code, modern design principles, and cultural inclusivity.
+This project showcases advanced proficiency in full-stack development, leveraging **Laravel**, **Tailwind CSS**, and **Laravel Breeze** to create a scalable, maintainable, and user-centric news platform. It reflects a commitment to clean code, modern design principles, and cultural inclusivity.
 
 ## 📋 Table of Content
 - **Features**
@@ -35,8 +35,8 @@ This project showcases advanced proficiency in full-stack development, leveragin
 
 ## 🎯 Project Goals
 - Build a scalable news platform tailored to the Nepali community, prioritizing cultural relevance and accessibility.
-- Implement a robust backend with Laravel for efficient content management and secure APIs.
-- Deliver a visually appealing, responsive frontend with Tailwind CSS to ensure a seamless user experience across devices.
+- Implement a robust backend with Laravel for efficient content management.
+- Deliver a visually appealing, responsive frontend with Tailwind CSS and Bootstrap to ensure a seamless user experience across devices.
 - Incorporate modern development practices, including modular code, performance optimization, and version control.
 
 ## 🔧 Installation
